@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { IoArrowForward } from "react-icons/io5";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -10,12 +12,19 @@ export default function Navbar() {
       transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
       className="absolute inset-x-0 top-0 z-50"
     >
-      <div className="mx-auto flex max-w-[1880px] items-center justify-between px-4 py-7 sm:px-6 md:px-8 md:py-8 lg:px-8 xl:px-10">
+      <div className="mx-auto flex max-w-[1880px] items-center justify-between px-4 pt-2 pb-4 sm:px-6 md:px-8 md:pt-3 md:pb-5 lg:px-8 xl:px-10">
         <a
           href="#top"
-          className="inline-flex h-10 items-center bg-[#1b1714] px-3 text-[0.9rem] font-semibold uppercase tracking-[-0.03em] text-[#f4ede2] md:h-11 md:px-4 md:text-[1.05rem]"
+          aria-label="Cemex home"
+          className="inline-flex items-center justify-center"
         >
-          CEMEX
+          <Image
+            src="/cemex-logo.png"
+            alt="Cemex Constructions Pvt Ltd"
+            width={1254}
+            height={1254}
+            className="h-20 w-20 object-contain md:h-24 md:w-24"
+          />
         </a>
 
         <button
@@ -28,12 +37,10 @@ export default function Navbar() {
 
         <a
           href="#contact"
-          className="inline-flex items-center gap-3 text-sm font-medium uppercase tracking-[-0.03em] text-[#5a4939] transition hover:opacity-65 md:text-[1.05rem]"
+          className="inline-flex items-center gap-1 text-sm font-medium uppercase tracking-[-0.03em] text-[#5a4939] transition hover:opacity-65 md:text-[1.05rem]"
         >
           <span>Contact</span>
-          <span aria-hidden className="text-[#b79b67]">
-            &#8599;
-          </span>
+         <IoArrowForward className="-rotate-45" />
         </a>
       </div>
     </motion.header>

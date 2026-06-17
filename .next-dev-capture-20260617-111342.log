@@ -38,3 +38,98 @@ Creating turbopack project { dir: 'C:\\Users\\Sthyra\\cemex', testMode: true }
  GET / 200 in 80ms (next.js: 27ms, application-code: 53ms)
  GET / 200 in 41ms (next.js: 17ms, application-code: 24ms)
  GET / 200 in 42ms (next.js: 2ms, application-code: 39ms)
+[browser] Image with src "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=80" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+ GET / 200 in 138ms (next.js: 2ms, application-code: 135ms)
+ GET /asset-cache-sw.js 404 in 50ms (next.js: 17ms, application-code: 33ms)
+[browser] Image with src "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=80" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+ GET /asset-cache-sw.js 404 in 30ms (next.js: 4ms, application-code: 26ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 3ms, application-code: 16ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 3ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET / 200 in 68ms (next.js: 3ms, application-code: 65ms)
+ GET /asset-cache-sw.js 404 in 32ms (next.js: 5ms, application-code: 27ms)
+ GET / 200 in 34ms (next.js: 1967µs, application-code: 32ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 2ms, application-code: 16ms)
+ GET /asset-cache-sw.js 404 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET / 200 in 47ms (next.js: 2ms, application-code: 45ms)
+ GET /asset-cache-sw.js 404 in 25ms (next.js: 3ms, application-code: 22ms)
+ GET /asset-cache-sw.js 404 in 25ms (next.js: 3ms, application-code: 22ms)
+ GET /asset-cache-sw.js 404 in 31ms (next.js: 3ms, application-code: 28ms)
+ GET /asset-cache-sw.js 404 in 29ms (next.js: 4ms, application-code: 26ms)
+ GET /asset-cache-sw.js 404 in 32ms (next.js: 4ms, application-code: 28ms)
+ GET /asset-cache-sw.js 404 in 29ms (next.js: 3ms, application-code: 26ms)
+ GET /asset-cache-sw.js 404 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET /asset-cache-sw.js 404 in 22ms (next.js: 4ms, application-code: 19ms)
+ GET /asset-cache-sw.js 404 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 23ms (next.js: 4ms, application-code: 19ms)
+ GET /asset-cache-sw.js 404 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET /asset-cache-sw.js 404 in 24ms (next.js: 3ms, application-code: 20ms)
+ GET /asset-cache-sw.js 404 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET / 200 in 46ms (next.js: 3ms, application-code: 43ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="inter_7b064e0d-module__MOT0tq__variable antialiased"
+-                         crxlauncher=""
+                        >
+                  ...
+ 
+ GET /asset-cache-sw.js 404 in 21ms (next.js: 3ms, application-code: 19ms)
+ GET /asset-cache-sw.js 404 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET /asset-cache-sw.js 404 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET /asset-cache-sw.js 404 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET /asset-cache-sw.js 404 in 20ms (next.js: 3ms, application-code: 17ms)
+✓ Compiled in 66ms
+ GET / 200 in 92ms (next.js: 54ms, application-code: 38ms)
+ GET / 200 in 18ms (next.js: 1882µs, application-code: 16ms)
+✓ Compiled in 26ms
+ GET / 200 in 71ms (next.js: 56ms, application-code: 15ms)
+ GET / 200 in 72ms (next.js: 36ms, application-code: 36ms)
+ GET /asset-cache-sw.js 404 in 47ms (next.js: 9ms, application-code: 37ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 2ms, application-code: 17ms)
+✓ Compiled in 26ms
+ GET / 200 in 93ms (next.js: 48ms, application-code: 45ms)
+ GET / 200 in 93ms (next.js: 75ms, application-code: 18ms)
+ GET /asset-cache-sw.js 404 in 43ms (next.js: 8ms, application-code: 35ms)
+✓ Compiled in 35ms
+ GET / 200 in 81ms (next.js: 37ms, application-code: 44ms)
+ GET / 200 in 24ms (next.js: 2ms, application-code: 22ms)
+ GET /asset-cache-sw.js 404 in 43ms (next.js: 9ms, application-code: 34ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 2ms, application-code: 17ms)
+✓ Compiled in 53ms
+ GET / 200 in 90ms (next.js: 44ms, application-code: 46ms)
+ GET / 200 in 24ms (next.js: 2ms, application-code: 22ms)

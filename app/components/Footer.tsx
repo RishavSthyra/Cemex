@@ -53,7 +53,8 @@ function FooterCol({ title, items }: { title: string; items: string[] }) {
   return (
     <div className="col-span-6 md:col-span-2 lg:col-span-2">
       <p className="text-[10px] tracking-[0.3em] text-white/40 uppercase mb-4">
-        // {title}
+        {"// "}
+        {title}
       </p>
       <ul className="space-y-2 text-sm text-white/80">
         {items.map((it) => (

@@ -43,7 +43,7 @@ export default function Contact() {
       <div className="mx-auto max-w-[1400px] grid grid-cols-12 gap-10">
         <div className="col-span-12 md:col-span-5">
           <p className="ct-line text-xs md:text-sm tracking-[0.3em] text-white/60 uppercase mb-6">
-            // Estimate project cost
+            {"// Estimate project cost"}
           </p>
           <h2 className="ct-line text-5xl md:text-7xl lg:text-8xl font-medium leading-[0.95] tracking-tight uppercase">
             Pour <em className="not-italic italic">with us.</em>
