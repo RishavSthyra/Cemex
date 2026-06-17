@@ -11,22 +11,22 @@ const SLIDES = [
     src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2200&q=80",
     alt: "Concrete slab pour at a modern job site",
     code: "01",
-    title: "Flagship Pour",
-    eyebrow: "READY-MIX SERIES",
+    title: "Villa Slab",
+    eyebrow: "RESIDENTIAL POUR",
   },
   {
     src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2200&q=80",
     alt: "Architectural concrete tower in an urban setting",
     code: "02",
-    title: "Tower Grid",
-    eyebrow: "STRUCTURAL MIX",
+    title: "Core Frame",
+    eyebrow: "COMMERCIAL STRUCTURE",
   },
   {
     src: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=2200&q=80",
     alt: "Precision concrete work with engineering supervision",
     code: "03",
-    title: "Site Control",
-    eyebrow: "QUALITY ASSURANCE",
+    title: "Floor Cast",
+    eyebrow: "INDUSTRIAL EXECUTION",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function Hero() {
             <p
               className={`hero-topline font-medium uppercase leading-[0.92] tracking-[-0.04em] text-[#1b1918] ${topLineClass}`}
             >
-              CEMENT MIXING IS OUR
+              CONCRETE FOR
             </p>
           </div>
 
@@ -150,7 +150,7 @@ export default function Hero() {
               href="#contact"
               className="hero-cta inline-flex min-h-11 items-center justify-center rounded-full border border-[#c5a66d]/60 px-6 text-sm font-medium uppercase tracking-[-0.03em] text-[#7f6440] transition hover:bg-[#1b1714] hover:text-[#f4ede2] md:min-h-12 md:px-8 md:text-base"
             >
-              Discuss The Project
+              Request A Quote
             </a>
           </div>
 
@@ -158,8 +158,9 @@ export default function Hero() {
             <p
               className={`max-w-[12.5rem] leading-[1.43] text-[#4d4239] ${bodyClass}`}
             >
-              We design and deliver precision-engineered ready-mix concrete for
-              modern construction across Bangalore and the rest of Karnataka.
+              We support homes, commercial builds, and industrial sites with
+              dependable concrete supply, planning, and pour-day coordination
+              across Bengaluru.
             </p>
           </div>
 
@@ -167,7 +168,7 @@ export default function Hero() {
             <h1
               className={`hero-display font-semibold uppercase leading-[0.9] tracking-[-0.07em] text-[#1b1918] ${displayClass}`}
             >
-              NEW STANDARD.
+              CONFIDENT BUILDS.
             </h1>
           </div>
         </div>

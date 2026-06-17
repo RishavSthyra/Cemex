@@ -10,13 +10,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 const STATS = [
   {
-    value: "23",
-    label: "PROFESSIONALS",
+    value: "24",
+    label: "SITE AND QA TEAM",
     icon: "people" as const,
   },
   {
-    value: "15",
-    label: "YEARS ON THE MARKET",
+    value: "12",
+    label: "YEARS OF FIELD EXPERIENCE",
     icon: "calendar" as const,
   },
 ];
@@ -156,16 +156,16 @@ export default function About() {
 
             <div className={`mt-12 space-y-1 tracking-[-0.06em] text-[#1b1714] ${headlineClass}`}>
               <h2 className="about-headline-line font-semibold leading-[0.9]">
-                Built <span className="font-light">with</span>
+                Planned <span className="font-light">with</span>
               </h2>
               <h2 className="about-headline-line font-light leading-[0.9]">
-                precision.
+                clarity.
               </h2>
               <h2 className="about-headline-line font-semibold leading-[0.9]">
-                Delivered <span className="font-light">with</span>
+                Poured <span className="font-light">with</span>
               </h2>
               <h2 className="about-headline-line font-light leading-[0.9]">
-                trust.
+                control.
               </h2>
             </div>
 
@@ -173,12 +173,14 @@ export default function About() {
 
             <div className={`mt-12 space-y-8 text-[#3c332d] ${copyClass} ${copyWidthClass}`}>
               <p className="about-copy">
-                CEMEX is a new modern concrete partner inspired by precision,
-                disciplined detailing, and better site outcomes.
+                Cemex Constructions Pvt Ltd works with homeowners, builders,
+                and contractors who need concrete that arrives on time and
+                performs the way it should on site.
               </p>
               <p className="about-copy">
-                Our mixes are designed to achieve the optimal balance between
-                functionality, quality, cost, and construction speed.
+                From quantity planning and grade selection to dispatch,
+                pumping, and testing, we stay involved so your team can build
+                faster with fewer site-day surprises.
               </p>
             </div>
           </div>
@@ -211,7 +213,7 @@ export default function About() {
                 100+
               </p>
               <p className="mt-5 text-[1.05rem] uppercase tracking-[0.08em] text-[#b79b67] md:text-[1.35rem]">
-                COMPLETED PROJECTS
+                SUCCESSFUL POURS
               </p>
             </div>
 

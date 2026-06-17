@@ -38,50 +38,51 @@ export default function Contact() {
     <section
       ref={ref}
       id="contact"
-      className="relative bg-[#1a1817] text-white py-28 md:py-40 px-6 md:px-10 border-t border-white/10"
+      className="relative border-t border-white/10 bg-[#1a1817] px-6 py-28 text-white md:px-10 md:py-40"
     >
-      <div className="mx-auto max-w-[1400px] grid grid-cols-12 gap-10">
+      <div className="mx-auto grid max-w-[1400px] grid-cols-12 gap-10">
         <div className="col-span-12 md:col-span-5">
-          <p className="ct-line text-xs md:text-sm tracking-[0.3em] text-white/60 uppercase mb-6">
-            {"// Estimate project cost"}
+          <p className="ct-line mb-6 text-xs uppercase tracking-[0.3em] text-white/60 md:text-sm">
+            {"// REQUEST A QUOTE"}
           </p>
-          <h2 className="ct-line text-5xl md:text-7xl lg:text-8xl font-medium leading-[0.95] tracking-tight uppercase">
-            Pour <em className="not-italic italic">with us.</em>
+          <h2 className="ct-line text-5xl font-medium uppercase leading-[0.95] tracking-tight md:text-7xl lg:text-8xl">
+            Plan your <em className="not-italic italic">next pour.</em>
           </h2>
-          <p className="ct-line text-sm md:text-base text-white/70 mt-8 max-w-md leading-relaxed">
-            Tell us about your site and we&apos;ll come back with a mix
-            recommendation and a transparent quote within 24 hours.
+          <p className="ct-line mt-8 max-w-md text-sm leading-relaxed text-white/70 md:text-base">
+            Share your project type, area, and expected schedule. We&apos;ll
+            recommend a suitable grade and come back with a clear estimate
+            within one working day.
           </p>
         </div>
 
         <form
-          className="ct-form col-span-12 md:col-span-7 grid grid-cols-2 gap-4"
+          className="ct-form col-span-12 grid grid-cols-2 gap-4 md:col-span-7"
           onSubmit={(e) => {
             e.preventDefault();
             setSubmitted(true);
           }}
         >
-          <Field label="Building type" defaultValue="Commercial" />
-          <Field label="Square feet" placeholder="e.g. 12,000" />
+          <Field label="Project type" defaultValue="Residential villa" />
+          <Field label="Built-up area" placeholder="e.g. 12,000 sq ft" />
 
           <div className="col-span-1 flex flex-col">
-            <label className="text-[10px] tracking-[0.25em] text-white/50 uppercase mb-2">
-              Number of floors
+            <label className="mb-2 text-[10px] uppercase tracking-[0.25em] text-white/50">
+              Floors
             </label>
-            <div className="flex items-center border border-white/30 px-3 h-12">
+            <div className="flex h-12 items-center border border-white/30 px-3">
               <button
                 type="button"
                 onClick={() => setFloors((f) => Math.max(1, f - 1))}
-                className="w-8 h-8 flex items-center justify-center hover:bg-white/10"
+                className="flex h-8 w-8 items-center justify-center hover:bg-white/10"
                 aria-label="decrease floors"
               >
-                −
+                -
               </button>
               <span className="flex-1 text-center text-sm">{floors}</span>
               <button
                 type="button"
                 onClick={() => setFloors((f) => f + 1)}
-                className="w-8 h-8 flex items-center justify-center hover:bg-white/10"
+                className="flex h-8 w-8 items-center justify-center hover:bg-white/10"
                 aria-label="increase floors"
               >
                 +
@@ -89,30 +90,30 @@ export default function Contact() {
             </div>
           </div>
 
-          <Field label="Terrace" defaultValue="Yes" />
+          <Field label="Concrete grade" defaultValue="M25 / M30" />
 
           <Field label="First name" placeholder="Jane" />
           <Field label="Last name" placeholder="Doe" />
 
           <div className="col-span-1 flex flex-col">
-            <label className="text-[10px] tracking-[0.25em] text-white/50 uppercase mb-2">
-              Bedrooms
+            <label className="mb-2 text-[10px] uppercase tracking-[0.25em] text-white/50">
+              Pour stages
             </label>
-            <div className="flex items-center border border-white/30 px-3 h-12">
+            <div className="flex h-12 items-center border border-white/30 px-3">
               <button
                 type="button"
                 onClick={() => setBedrooms((b) => Math.max(0, b - 1))}
-                className="w-8 h-8 flex items-center justify-center hover:bg-white/10"
-                aria-label="decrease bedrooms"
+                className="flex h-8 w-8 items-center justify-center hover:bg-white/10"
+                aria-label="decrease pour stages"
               >
-                −
+                -
               </button>
               <span className="flex-1 text-center text-sm">{bedrooms}</span>
               <button
                 type="button"
                 onClick={() => setBedrooms((b) => b + 1)}
-                className="w-8 h-8 flex items-center justify-center hover:bg-white/10"
-                aria-label="increase bedrooms"
+                className="flex h-8 w-8 items-center justify-center hover:bg-white/10"
+                aria-label="increase pour stages"
               >
                 +
               </button>
@@ -126,13 +127,13 @@ export default function Contact() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.97 }}
               type="submit"
-              className="bg-white text-[#1a1817] rounded-full px-10 py-3 text-xs md:text-sm font-semibold tracking-[0.25em] uppercase"
+              className="rounded-full bg-white px-10 py-3 text-xs font-semibold uppercase tracking-[0.25em] text-[#1a1817] md:text-sm"
             >
-              {submitted ? "Sent ✓" : "Submit"}
+              {submitted ? "Request sent" : "Request quote"}
             </motion.button>
             {submitted && (
               <p className="text-xs text-white/60">
-                Thanks — we&apos;ll be in touch shortly.
+                Thanks, our team will be in touch shortly.
               </p>
             )}
           </div>
@@ -153,13 +154,13 @@ function Field({
 }) {
   return (
     <div className="col-span-1 flex flex-col">
-      <label className="text-[10px] tracking-[0.25em] text-white/50 uppercase mb-2">
+      <label className="mb-2 text-[10px] uppercase tracking-[0.25em] text-white/50">
         {label}
       </label>
       <input
         defaultValue={defaultValue}
         placeholder={placeholder}
-        className="bg-transparent border border-white/30 px-4 h-12 text-sm placeholder:text-white/40 focus:border-white focus:outline-none transition"
+        className="h-12 border border-white/30 bg-transparent px-4 text-sm transition placeholder:text-white/40 focus:border-white focus:outline-none"
       />
     </div>
   );

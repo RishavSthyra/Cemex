@@ -133,3 +133,51 @@ https://react.dev/link/hydration-mismatch
 ✓ Compiled in 53ms
  GET / 200 in 90ms (next.js: 44ms, application-code: 46ms)
  GET / 200 in 24ms (next.js: 2ms, application-code: 22ms)
+ GET /asset-cache-sw.js 404 in 58ms (next.js: 10ms, application-code: 48ms)
+✓ Compiled in 22ms
+ GET / 200 in 64ms (next.js: 32ms, application-code: 32ms)
+ GET / 200 in 14ms (next.js: 1373µs, application-code: 13ms)
+✓ Compiled in 199ms
+ GET / 200 in 93ms (next.js: 59ms, application-code: 34ms)
+ GET / 200 in 93ms (next.js: 40ms, application-code: 54ms)
+ GET / 200 in 25ms (next.js: 1852µs, application-code: 24ms)
+ GET / 200 in 25ms (next.js: 11ms, application-code: 14ms)
+✓ Compiled in 34ms
+ GET / 200 in 111ms (next.js: 35ms, application-code: 77ms)
+ GET / 200 in 111ms (next.js: 55ms, application-code: 56ms)
+ GET / 200 in 46ms (next.js: 1752µs, application-code: 45ms)
+ GET / 200 in 46ms (next.js: 15ms, application-code: 31ms)
+ GET / 200 in 22ms (next.js: 11ms, application-code: 11ms)
+ GET / 200 in 23ms (next.js: 1544µs, application-code: 21ms)
+✓ Compiled in 32ms
+ GET / 200 in 93ms (next.js: 35ms, application-code: 57ms)
+ GET / 200 in 93ms (next.js: 61ms, application-code: 32ms)
+ GET / 200 in 21ms (next.js: 1471µs, application-code: 19ms)
+ GET / 200 in 21ms (next.js: 10ms, application-code: 11ms)
+✓ Compiled in 30ms
+ GET / 200 in 70ms (next.js: 59ms, application-code: 12ms)
+ GET / 200 in 71ms (next.js: 40ms, application-code: 32ms)
+✓ Compiled in 19ms
+ GET / 200 in 67ms (next.js: 34ms, application-code: 34ms)
+ GET / 200 in 16ms (next.js: 1780µs, application-code: 14ms)
+✓ Compiled in 31ms
+ GET / 200 in 64ms (next.js: 35ms, application-code: 30ms)
+ GET / 200 in 13ms (next.js: 3ms, application-code: 11ms)
+✓ Compiled in 29ms
+ GET / 200 in 68ms (next.js: 39ms, application-code: 29ms)
+ GET / 200 in 68ms (next.js: 57ms, application-code: 11ms)
+ GET /asset-cache-sw.js 404 in 47ms (next.js: 9ms, application-code: 38ms)
+ GET /asset-cache-sw.js 404 in 18ms (next.js: 2ms, application-code: 16ms)
+ GET /asset-cache-sw.js 404 in 24ms (next.js: 3ms, application-code: 21ms)
+✓ Compiled in 28ms
+ GET / 200 in 90ms (next.js: 43ms, application-code: 47ms)
+ GET / 200 in 14ms (next.js: 1768µs, application-code: 13ms)
+ GET /asset-cache-sw.js 404 in 43ms (next.js: 8ms, application-code: 36ms)
+✓ Compiled in 29ms
+ GET / 200 in 90ms (next.js: 47ms, application-code: 43ms)
+ GET / 200 in 19ms (next.js: 1753µs, application-code: 18ms)
+ GET /asset-cache-sw.js 404 in 47ms (next.js: 8ms, application-code: 39ms)
+✓ Compiled in 27ms
+ GET / 200 in 108ms (next.js: 63ms, application-code: 44ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET /asset-cache-sw.js 404 in 44ms (next.js: 8ms, application-code: 36ms)

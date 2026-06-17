@@ -27,32 +27,32 @@ type ServiceCard = {
 
 const SERVICES: ServiceCard[] = [
   {
-    title: "Ready-Mix Concrete",
-    body: "Computer-batched, GPS-tracked pours delivered to your site in under 90 minutes from one of our three Bangalore plants.",
+    title: "Ready-Mix Supply",
+    body: "Reliable concrete for villas, apartments, and commercial structures, dispatched to match your pour window and site conditions.",
     icon: LuTruck,
     lightImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_43 AM (1)-Photoroom.png",
     darkImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_45 AM (5)-Photoroom.png",
     imageClassName: "w-[44%] min-w-[180px] max-w-[340px]",
   },
   {
-    title: "High-Strength Mixes",
-    body: "M50 to M80 grades formulated for high-rises, bridges, and data-centre floor slabs.",
+    title: "Custom Mix Design",
+    body: "From standard structural grades to pumpable and high-strength mixes, we help choose the right concrete for the job.",
     icon: LuBox,
     lightImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_43 AM (2)-Photoroom.png",
     darkImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_46 AM (6)-Photoroom.png",
     imageClassName: "w-[41%] min-w-[175px] max-w-[320px]",
   },
   {
-    title: "Architectural Concrete",
-    body: "Self-compacting, polished, and pigmented mixes for exposed walls, floors, and facades.",
+    title: "Structural Pour Support",
+    body: "Support for foundations, columns, slabs, retaining walls, and other key pours where timing and consistency matter most.",
     icon: LuBuilding2,
     lightImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_44 AM (3)-Photoroom.png",
     darkImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_46 AM (7)-Photoroom.png",
     imageClassName: "w-[44%] min-w-[190px] max-w-[350px]",
   },
   {
-    title: "On-Site Batching",
-    body: "Mobile plants deployed for remote or large-volume sites — guaranteed slump at the discharge chute.",
+    title: "Pumping And Testing",
+    body: "Site coordination, pumping support, and cube testing that help your team pour cleanly and close each stage with confidence.",
     icon: LuFactory,
     lightImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_45 AM (4)-Photoroom.png",
     darkImage: "/Images/ChatGPT Image Jun 17, 2026, 10_19_46 AM (8)-Photoroom.png",
@@ -137,12 +137,12 @@ export default function Services() {
               {"// CAPABILITIES"}
             </p>
             <h2 className="svc-headline mt-6 text-[clamp(3.3rem,7vw,5.9rem)] font-light uppercase leading-[0.92] tracking-[-0.08em] text-[#1b1714]">
-              WHAT WE <span className="font-semibold">POUR.</span>
+              HOW WE <span className="font-semibold">SUPPORT.</span>
             </h2>
             <p className="svc-copy mt-8 max-w-[22rem] text-lg leading-[1.55] text-[#4a4139] md:text-[1.18rem]">
-              From ready-mix to specialized concrete solutions, our
-              capabilities are built to support every phase of your
-              construction.
+              We are built for projects that need more than material alone:
+              clear planning, disciplined dispatch, and better execution on
+              pour day.
             </p>
           </div>
 
@@ -150,17 +150,14 @@ export default function Services() {
             href="#projects"
             className="svc-link inline-flex items-center gap-4 self-start border-b border-[#c7ab7c] pb-2 text-sm uppercase tracking-[0.2em] text-[#b79b67] transition hover:text-[#1b1714] md:text-base"
           >
-            <span>FULL CATALOG</span>
+            <span>SEE PROJECT TYPES</span>
             <LuArrowRight className="h-4 w-4 md:h-5 md:w-5" />
           </a>
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-4 lg:mt-14 lg:grid-cols-2 lg:gap-5">
           {SERVICES.map((service) => (
-            <ServiceCard
-              key={service.title}
-              service={service}
-            />
+            <ServiceCard key={service.title} service={service} />
           ))}
         </div>
       </div>
@@ -216,7 +213,7 @@ function ServiceCard({
           href="#contact"
           className="mt-auto inline-flex w-fit items-center gap-5 border-b border-[#c7ab7c] pb-2 pt-10 text-sm uppercase tracking-[0.22em] text-[#6d5c4a] transition-colors duration-500 group-hover:text-[#d9c29b] md:text-[0.98rem]"
         >
-          <span>VIEW SPEC</span>
+          <span>TALK TO US</span>
           <LuArrowUpRight className="h-4 w-4" />
         </a>
       </div>

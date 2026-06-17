@@ -9,23 +9,23 @@ gsap.registerPlugin(ScrollTrigger);
 const STEPS = [
   {
     n: "01",
-    t: "Specify",
-    d: "Submit your mix grade, slump, and pour window through our portal or with a call.",
+    t: "Share",
+    d: "Send your drawings, project type, concrete requirement, and expected schedule so we can understand the scope clearly.",
   },
   {
     n: "02",
-    t: "Batch",
-    d: "We weigh and blend cement, aggregates, and admixtures to a tolerance of ±2%.",
+    t: "Plan",
+    d: "We recommend grade, estimate quantity, and lock the delivery sequence around your site access, pumping, and crew timing.",
   },
   {
     n: "03",
-    t: "Pour",
-    d: "Mix arrives on site in a transit mixer with a live ticket — ready in 90 minutes.",
+    t: "Dispatch",
+    d: "Our team coordinates batching, transport, and on-site movement so the concrete reaches your pour in a usable working window.",
   },
   {
     n: "04",
-    t: "Verify",
-    d: "Cubes are cast from every load and tested at 7 and 28 days at our lab.",
+    t: "Confirm",
+    d: "We stay with the process through placement, cube testing, and follow-up so every stage closes with documented confidence.",
   },
 ];
 
@@ -167,18 +167,19 @@ export default function Process() {
 
           <div className="mt-8 space-y-1 text-[clamp(2.65rem,5.15vw,5.35rem)] font-light uppercase leading-[0.92] tracking-[-0.08em] text-[#1b1714]">
             <h2 className="proc-headline-line whitespace-nowrap">
-              FROM ORDER TO POUR,
+              FROM DRAWING TO POUR,
             </h2>
             <h2 className="proc-headline-line whitespace-nowrap">
-              IN 90 MINUTES.
+              WITHOUT THE CHAOS.
             </h2>
           </div>
 
           <div className="proc-rule mt-10 h-px w-14 bg-[#c4a56c]" />
 
           <p className="proc-copy mt-10 max-w-[38rem] text-lg leading-[1.7] text-[#55504b] md:text-[1.2rem]">
-            A precision-driven process built for consistency, transparency, and
-            speed — from your mix to the jobsite.
+            A practical workflow for projects that need clear communication,
+            timely dispatch, and better control from planning through
+            execution.
           </p>
         </div>
 

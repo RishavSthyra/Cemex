@@ -16,9 +16,9 @@ const PROJECTS = [
     detailSrc:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1400&q=80",
     alt: "Concrete slab pour at a large commercial site",
-    code: "PROJECT #43",
-    title: "Embassy Tech Square - slab pour",
-    mix: "M60",
+    code: "PROJECT 01",
+    title: "East Bengaluru villa community - footing to roof slab",
+    mix: "M25 / M30",
   },
   {
     heroSrc:
@@ -26,9 +26,9 @@ const PROJECTS = [
     detailSrc:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1400&q=80",
     alt: "Modern tower construction project",
-    code: "PROJECT #27",
-    title: "MG Road residential tower",
-    mix: "M55 ARCHITECTURAL",
+    code: "PROJECT 02",
+    title: "Whitefield commercial shell - raft and column cycle",
+    mix: "M35 PUMPABLE",
   },
   {
     heroSrc:
@@ -36,9 +36,9 @@ const PROJECTS = [
     detailSrc:
       "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1400&q=80",
     alt: "Industrial foundation pour in progress",
-    code: "PROJECT #19",
-    title: "Hoskote logistics park - foundation",
-    mix: "M40 BULK",
+    code: "PROJECT 03",
+    title: "Peenya industrial floor - large slab package",
+    mix: "M30 FLOOR MIX",
   },
 ];
 
@@ -131,7 +131,7 @@ export default function Projects() {
             </p>
 
             <h2 className="projects-headline mt-6 text-[clamp(3.3rem,7vw,5.9rem)] font-light uppercase leading-[0.92] tracking-[-0.08em] text-[#1b1714]">
-              RECENT POURS.
+              SELECTED WORK.
             </h2>
           </div>
 
@@ -139,7 +139,7 @@ export default function Projects() {
             href="#contact"
             className="projects-link inline-flex items-center gap-4 self-start border-b border-[#c7ab7c] pb-2 text-sm uppercase tracking-[0.2em] text-[#b79b67] transition hover:text-[#1b1714] md:self-end md:text-base"
           >
-            <span>VIEW ALL</span>
+            <span>START YOUR PROJECT</span>
             <LuArrowUpRight className="h-4 w-4 md:h-5 md:w-5" />
           </a>
         </div>
@@ -206,7 +206,7 @@ export default function Projects() {
                 href="#contact"
                 className="projects-footer-item inline-flex items-center gap-4 justify-self-start border-b border-[#c7ab7c] pb-2 text-sm uppercase tracking-[0.2em] text-[#1b1714] transition hover:text-[#b79b67] md:text-base lg:justify-self-end"
               >
-                <span>VIEW PROJECT</span>
+                <span>BOOK A CONSULT</span>
                 <LuArrowUpRight className="h-4 w-4 md:h-5 md:w-5" />
               </a>
 
