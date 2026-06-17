@@ -1,0 +1,21 @@
+
+> cemex@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.26:3000
+✓ Ready in 229ms
+Creating turbopack project { dir: 'C:\\Users\\Sthyra\\cemex', testMode: true }
+
+[browser] GSAP target null not found. https://gsap.com (app/components/Process.tsx:106:15)
+ GET / 200 in 363ms (next.js: 83ms, application-code: 280ms)
+ GET / 200 in 90ms (next.js: 2ms, application-code: 88ms)
+ GET / 200 in 91ms (next.js: 30ms, application-code: 60ms)
+ GET /asset-cache-sw.js 404 in 34ms (next.js: 15ms, application-code: 18ms)
+ GET / 200 in 38ms (next.js: 3ms, application-code: 35ms)
+✓ Compiled in 167ms
+ GET / 200 in 67ms (next.js: 23ms, application-code: 44ms)
+ GET / 200 in 67ms (next.js: 38ms, application-code: 29ms)
+ GET / 200 in 67ms (next.js: 49ms, application-code: 18ms)
+[?25h

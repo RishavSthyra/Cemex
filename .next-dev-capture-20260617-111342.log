@@ -1,0 +1,40 @@
+
+> cemex@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.26:3000
+✓ Ready in 234ms
+Creating turbopack project { dir: 'C:\\Users\\Sthyra\\cemex', testMode: true }
+
+ GET / 200 in 260ms (next.js: 86ms, application-code: 174ms)
+ GET / 200 in 73ms (next.js: 2ms, application-code: 71ms)
+ GET / 200 in 43ms (next.js: 3ms, application-code: 41ms)
+ GET /asset-cache-sw.js 404 in 33ms (next.js: 15ms, application-code: 19ms)
+ GET / 200 in 32ms (next.js: 1991µs, application-code: 30ms)
+✓ Compiled in 176ms
+ GET / 200 in 89ms (next.js: 66ms, application-code: 23ms)
+ GET / 200 in 90ms (next.js: 51ms, application-code: 39ms)
+ GET / 200 in 91ms (next.js: 32ms, application-code: 59ms)
+✓ Compiled in 50ms
+ GET / 200 in 85ms (next.js: 31ms, application-code: 54ms)
+ GET / 200 in 85ms (next.js: 44ms, application-code: 41ms)
+ GET / 200 in 24ms (next.js: 3ms, application-code: 21ms)
+✓ Compiled in 44ms
+ GET / 200 in 65ms (next.js: 25ms, application-code: 41ms)
+ GET / 200 in 66ms (next.js: 48ms, application-code: 17ms)
+ GET / 200 in 67ms (next.js: 39ms, application-code: 28ms)
+✓ Compiled in 34ms
+ GET / 200 in 80ms (next.js: 25ms, application-code: 55ms)
+ GET / 200 in 81ms (next.js: 41ms, application-code: 40ms)
+ GET / 200 in 30ms (next.js: 4ms, application-code: 26ms)
+✓ Compiled in 57ms
+ GET / 200 in 109ms (next.js: 45ms, application-code: 64ms)
+ GET / 200 in 109ms (next.js: 61ms, application-code: 48ms)
+ GET / 200 in 30ms (next.js: 3ms, application-code: 27ms)
+[browser] Image with src "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=80" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+✓ Compiled in 24ms
+ GET / 200 in 80ms (next.js: 27ms, application-code: 53ms)
+ GET / 200 in 41ms (next.js: 17ms, application-code: 24ms)
+ GET / 200 in 42ms (next.js: 2ms, application-code: 39ms)

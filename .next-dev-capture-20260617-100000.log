@@ -1,0 +1,20 @@
+
+> cemex@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.26:3000
+✓ Ready in 254ms
+Creating turbopack project { dir: 'C:\\Users\\Sthyra\\cemex', testMode: true }
+
+ GET / 200 in 241ms (next.js: 94ms, application-code: 147ms)
+[browser] Image with src "/Images/Cemex_2ndSection_MiddleImage.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET / 200 in 34ms (next.js: 2ms, application-code: 32ms)
+ GET /asset-cache-sw.js 404 in 32ms (next.js: 14ms, application-code: 18ms)
+ GET / 200 in 26ms (next.js: 2ms, application-code: 24ms)
+✓ Compiled in 163ms
+ GET / 200 in 65ms (next.js: 23ms, application-code: 42ms)
+ GET / 200 in 65ms (next.js: 40ms, application-code: 25ms)
+[?25h

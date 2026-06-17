@@ -1,0 +1,890 @@
+
+> cemex@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.26:3000
+✓ Ready in 233ms
+Creating turbopack project { dir: 'C:\\Users\\Sthyra\\cemex', testMode: true }
+
+ GET / 200 in 231ms (next.js: 86ms, application-code: 145ms)
+ GET / 200 in 63ms (next.js: 3ms, application-code: 60ms)
+ GET / 200 in 36ms (next.js: 3ms, application-code: 33ms)
+ GET /asset-cache-sw.js 404 in 35ms (next.js: 16ms, application-code: 18ms)
+ GET / 200 in 32ms (next.js: 2ms, application-code: 30ms)
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 144ms (next.js: 65ms, application-code: 78ms)
+ GET / 500 in 144ms (next.js: 132ms, application-code: 11ms)
+ GET / 500 in 145ms (next.js: 139ms, application-code: 6ms)
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 23ms (next.js: 7ms, application-code: 16ms)
+ GET / 500 in 24ms (next.js: 12ms, application-code: 12ms)
+ GET / 500 in 23ms (next.js: 16ms, application-code: 7ms)
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 29ms (next.js: 9ms, application-code: 20ms)
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 31ms (next.js: 16ms, application-code: 15ms)
+ GET / 500 in 31ms (next.js: 21ms, application-code: 11ms)
+ GET / 500 in 33ms (next.js: 21ms, application-code: 12ms)
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  [90m2 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"./components/Hero"[0m;
+  [90m3 |[0m [36mimport[0m [33mAbout[0m [36mfrom[0m [32m"./components/About"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"./components/Services"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mProcess[0m [36mfrom[0m [32m"./components/Process"[0m;
+  [90m6 |[0m [36mimport[0m [33mProjects[0m [36mfrom[0m [32m"./components/Projects"[0m;
+  [90m7 |[0m [36mimport[0m [33mContact[0m [36mfrom[0m [32m"./components/Contact"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 38ms (next.js: 28ms, application-code: 10ms)
+ GET / 500 in 40ms (next.js: 23ms, application-code: 17ms)
+ GET / 500 in 40ms (next.js: 34ms, application-code: 6ms)
+[browser] Uncaught Error: ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  2 | import Hero from "./components/Hero";
+  3 | import About from "./components/About";
+> 4 | import Services from "./components/Services";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Process from "./components/Process";
+  6 | import Projects from "./components/Projects";
+  7 | import Contact from "./components/Contact";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./app/page.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] Uncaught Error: ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  2 | import Hero from "./components/Hero";
+  3 | import About from "./components/About";
+> 4 | import Services from "./components/Services";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Process from "./components/Process";
+  6 | import Projects from "./components/Projects";
+  7 | import Contact from "./components/Contact";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./app/page.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] Uncaught Error: ./app/page.tsx:4:1
+Module not found: Can't resolve './components/Services'
+  2 | import Hero from "./components/Hero";
+  3 | import About from "./components/About";
+> 4 | import Services from "./components/Services";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Process from "./components/Process";
+  6 | import Projects from "./components/Projects";
+  7 | import Contact from "./components/Contact";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./app/page.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+ GET /asset-cache-sw.js 500 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET / 200 in 247ms (next.js: 93ms, application-code: 154ms)
+ GET / 200 in 248ms (next.js: 105ms, application-code: 143ms)
+ GET / 200 in 252ms (next.js: 68ms, application-code: 184ms)
+ GET / 200 in 136ms (next.js: 48ms, application-code: 88ms)
+ GET / 200 in 137ms (next.js: 32ms, application-code: 105ms)
+ GET / 200 in 137ms (next.js: 59ms, application-code: 78ms)
+ GET /asset-cache-sw.js 404 in 27ms (next.js: 10ms, application-code: 18ms)
+ GET /asset-cache-sw.js 404 in 19ms (next.js: 3ms, application-code: 16ms)
+[?25h

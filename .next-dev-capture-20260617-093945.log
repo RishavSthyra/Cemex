@@ -1,0 +1,15 @@
+
+> cemex@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.26:3000
+✓ Ready in 246ms
+Creating turbopack project { dir: 'C:\\Users\\Sthyra\\cemex', testMode: true }
+
+ GET / 200 in 241ms (next.js: 94ms, application-code: 147ms)
+ GET / 200 in 30ms (next.js: 2ms, application-code: 28ms)
+ GET /asset-cache-sw.js 404 in 33ms (next.js: 15ms, application-code: 18ms)
+ GET / 200 in 30ms (next.js: 1957µs, application-code: 28ms)
+[?25h
